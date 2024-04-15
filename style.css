@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #292c34;
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+header > h1 {
+    color: #25272e;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+.first_container {
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: Asap, sans-serif;
+    position: relative;
+}
+
+.first_container > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: Asap, sans-serif;
+    margin-bottom: 0;
+}
+
+.result {
+    color: white;
+    text-align: center;
+}
+
+.result > h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Asap, sans-serif;
+}
+
+.chance {
+    color: white;
+}
+
+.chance > h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Asap, sans-serif;
+}
+
+.second_container {
+    display: flex;
+    justify-content: center;
+}
+
+.Go_box {
+    text-align: center;
+}
+
+.Reset_box {
+    text-align: center;
+}
+
+.button-style {
+    height: 40px;
+    width: 70px;
+    border-radius: 50px;
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 4px 15px 0;
+}
+
+.button-items {
+    padding-left: 15px;
+}
+
+.form-control {
+    height: 40px;
+    text-align: center;
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 48rem) {
+    .second_container {
+        display: block;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Number Guess Game</h1>
+    </header>
+
+    <div class="first_container">
+        <p>a drinking game</p>
+        <p>Up & Down</p>
+    </div>
+    <div id="result-area" class="result">
+        <img src="./image/first_image.png" width="150px" class="main-img">
+        <h1 class="result-text">Get the numbers right</h1>
+    </div>
+    <div class="chance">
+        <h2 id="chance-area">chance:5</h2>
+    </div>
+
+    <div class="second_container">
+        <div class="col-md-2 mt-3">
+            <input type="number" id="user-input" class="form-control mb-10"
+                placeholder="Enter a number from 1 to 100" />
+        </div>
+        <div class="Go_box">
+            <button class="btn btn-success mt-3 button-style button-start" id="play-button">Go!!</button>
+        </div>
+    </div>
+
+    <div class="Reset_box">
+        <button class="btn btn-warning mt-3 button-style button-reset">Reset</button>
+    </div>
+    <p id="action-message">Make your move.</p>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
