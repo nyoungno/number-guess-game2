@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     background-color: #292c34;
 }
@@ -82,10 +76,6 @@ header > h1 {
     font-size: 12pt;
     font-weight: bold;
     margin: 4px 15px 0;
-}
-
-.button-items {
-    padding-left: 15px;
 }
 
 .form-control {

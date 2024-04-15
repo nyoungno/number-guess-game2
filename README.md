@@ -6,7 +6,7 @@ number-guess-game 첫번째 프로젝트를 리팩토링하여 Rock-Paper-Scisso
 
 
 ## 기능
-number-guess-game 참고
+<https://github.com/nyoungno/number-guess-game> 참고
 
 ## 사용한 기술
 * HTML
