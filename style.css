@@ -92,6 +92,17 @@ header > h1 {
     margin-top: 20px;
 }
 
+.back_box {
+    display: flex;
+    justify-content: center;
+}
+
+.img_move {
+    display: flex;
+    justify-content: flex-end;
+    width: 350px;
+}
+
 @media screen and (max-width: 48rem) {
     .second_container {
         display: block;
